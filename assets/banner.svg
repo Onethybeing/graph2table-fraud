@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="graph2table-fraud: turn a transaction graph into a table, then find fraud">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#8FA3BF"/></marker>
+  </defs>
+  <rect width="1280" height="320" fill="#0F1B2D"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="64" y="128" font-size="54" font-weight="700" fill="#F4F7FB">graph2table-fraud</text>
+    <text x="64" y="176" font-size="24" fill="#B8C6D9">Turn a transaction graph into a table,</text>
+    <text x="64" y="208" font-size="24" fill="#B8C6D9">then find fraud with very few labels.</text>
+    <text x="64" y="258" font-size="17" fill="#8FA3BF">Tested on real data, against simple baselines</text>
+  </g>
+  <g stroke="#51657F" stroke-width="2">
+    <line x1="700" y1="90" x2="770" y2="60"/><line x1="700" y1="90" x2="760" y2="150"/><line x1="770" y1="60" x2="840" y2="110"/>
+    <line x1="760" y1="150" x2="840" y2="110"/><line x1="760" y1="150" x2="700" y2="220"/><line x1="760" y1="150" x2="820" y2="230"/>
+    <line x1="840" y1="110" x2="820" y2="230"/><line x1="700" y1="220" x2="820" y2="230"/>
+  </g>
+  <g fill="#6FA8DC">
+    <circle cx="700" cy="90" r="13"/><circle cx="770" cy="60" r="13"/><circle cx="840" cy="110" r="13"/><circle cx="700" cy="220" r="13"/><circle cx="820" cy="230" r="13"/>
+  </g>
+  <circle cx="760" cy="150" r="17" fill="#F2695C"/>
+  <line x1="880" y1="150" x2="956" y2="150" stroke="#8FA3BF" stroke-width="3" marker-end="url(#a)"/>
+  <g>
+    <rect x="976" y="64" width="240" height="192" rx="8" fill="#16263C" stroke="#51657F" stroke-width="2"/>
+    <rect x="976" y="64" width="240" height="38" rx="8" fill="#223652"/>
+    <rect x="976" y="140" width="240" height="38" fill="#F2695C" fill-opacity="0.28"/>
+    <g stroke="#51657F" stroke-width="1.5">
+      <line x1="976" y1="102" x2="1216" y2="102"/><line x1="976" y1="140" x2="1216" y2="140"/><line x1="976" y1="178" x2="1216" y2="178"/><line x1="976" y1="216" x2="1216" y2="216"/>
+      <line x1="1036" y1="64" x2="1036" y2="256"/><line x1="1096" y1="64" x2="1096" y2="256"/><line x1="1156" y1="64" x2="1156" y2="256"/>
+    </g>
+  </g>
+</svg>

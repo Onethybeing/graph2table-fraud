@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 400" width="1120" height="400" role="img" aria-label="Evaluation: the same table is scored on few-label T-Finance splits and on Elliptic split by time and at random">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#5B6B80"/></marker>
+  </defs>
+  <rect width="1120" height="400" fill="#FFFFFF"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#14202E">
+    <text x="32" y="44" font-size="22" font-weight="700">Every run is checked against simple baselines</text>
+    <g fill="none" stroke="#5B6B80" stroke-width="1.5">
+      <path d="M272 130H312" marker-end="url(#a)"/>
+      <path d="M272 280H312" marker-end="url(#a)"/>
+      <path d="M632 130H672" marker-end="url(#a)"/>
+      <path d="M632 280H672" marker-end="url(#a)"/>
+      <path d="M992 130H1020V180" />
+      <path d="M992 280H1020V230"/>
+    </g>
+    <g fill="#F4F6F9" stroke="#5B6B80" stroke-width="1.25">
+      <rect x="32" y="84" width="240" height="92" rx="8"/>
+      <rect x="32" y="234" width="240" height="92" rx="8"/>
+    </g>
+    <text x="50" y="120" font-size="17" font-weight="600">T-Finance</text>
+    <text x="50" y="146" font-size="14" fill="#4C5A6B">Published random splits, 10 runs</text>
+    <text x="50" y="270" font-size="17" font-weight="600">Elliptic</text>
+    <text x="50" y="296" font-size="14" fill="#4C5A6B">Labelled Bitcoin transactions</text>
+    <g fill="#EAF2FB" stroke="#3D7CC9" stroke-width="1.25">
+      <rect x="312" y="84" width="320" height="92" rx="8"/>
+      <rect x="312" y="234" width="320" height="92" rx="8"/>
+    </g>
+    <text x="330" y="120" font-size="16" font-weight="600">100 labelled accounts</text>
+    <text x="330" y="146" font-size="14" fill="#4C5A6B">20 fraud, 80 normal, test on the rest</text>
+    <text x="330" y="270" font-size="16" font-weight="600">Time split and random split</text>
+    <text x="330" y="296" font-size="14" fill="#4C5A6B">Train to step 34, test steps 35 to 49</text>
+    <g fill="#F4F6F9" stroke="#5B6B80" stroke-width="1.25">
+      <rect x="672" y="84" width="320" height="92" rx="8"/>
+      <rect x="672" y="234" width="320" height="92" rx="8"/>
+    </g>
+    <text x="690" y="120" font-size="16" font-weight="600">Ablation of feature blocks</text>
+    <text x="690" y="146" font-size="14" fill="#4C5A6B">Raw alone, then each block added</text>
+    <text x="690" y="270" font-size="16" font-weight="600">Same ablation, both splits</text>
+    <text x="690" y="296" font-size="14" fill="#4C5A6B">Shows how much a random split flatters</text>
+    <text x="1020" y="212" font-size="14" font-weight="600" text-anchor="middle">Report</text>
+    <text x="32" y="368" font-size="15" fill="#4C5A6B">Reported metrics: AUROC, AUPRC, and recall at K, always next to the fraud base rate.</text>
+  </g>
+</svg>

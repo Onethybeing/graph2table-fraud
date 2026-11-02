@@ -1,0 +1,105 @@
+{
+ "base_rate_test_split0": 0.04502387823377685,
+ "raw": {
+  "AUROC": [
+   92.84,
+   1.17
+  ],
+  "AUPRC": [
+   71.61,
+   2.75
+  ],
+  "RecK": [
+   68.15,
+   1.44
+  ],
+  "columns": 10,
+  "feature_seconds": 1.8,
+  "splits": 10
+ },
+ "raw+structure": {
+  "AUROC": [
+   93.81,
+   1.04
+  ],
+  "AUPRC": [
+   75.99,
+   2.67
+  ],
+  "RecK": [
+   70.52,
+   2.51
+  ],
+  "columns": 12,
+  "feature_seconds": 6.3,
+  "splits": 10
+ },
+ "raw+position": {
+  "AUROC": [
+   95.89,
+   0.41
+  ],
+  "AUPRC": [
+   83.23,
+   2.1
+  ],
+  "RecK": [
+   76.7,
+   2.41
+  ],
+  "columns": 26,
+  "feature_seconds": 24.4,
+  "splits": 10
+ },
+ "raw+neighbours_mean": {
+  "AUROC": [
+   95.05,
+   0.5
+  ],
+  "AUPRC": [
+   79.8,
+   2.19
+  ],
+  "RecK": [
+   73.28,
+   2.23
+  ],
+  "columns": 30,
+  "feature_seconds": 3.2,
+  "splits": 10
+ },
+ "all_mean": {
+  "AUROC": [
+   95.56,
+   0.43
+  ],
+  "AUPRC": [
+   81.84,
+   2.22
+  ],
+  "RecK": [
+   75.14,
+   2.15
+  ],
+  "columns": 48,
+  "feature_seconds": 30.0,
+  "splits": 10
+ },
+ "all_wavelet": {
+  "AUROC": [
+   95.56,
+   0.52
+  ],
+  "AUPRC": [
+   81.6,
+   3.3
+  ],
+  "RecK": [
+   74.91,
+   3.36
+  ],
+  "columns": 58,
+  "feature_seconds": 29.4,
+  "splits": 10
+ }
+}

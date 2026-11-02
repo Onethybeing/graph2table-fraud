@@ -1,0 +1,6 @@
+kaggle/build/
+kaggle/out/
+__pycache__/
+*.pyc
+.venv/
+datasets/
