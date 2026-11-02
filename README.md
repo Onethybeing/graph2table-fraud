@@ -28,7 +28,7 @@ Each account gets one row, built from four blocks. None of them use labels.
 
 ### T-Finance
 
-100 labelled accounts (20 fraud, 80 normal), 10 published random splits, tested on the other 39,257 accounts. Fraud rate in the test set is about 4.5%. Values are mean ± std in percent.
+100 labelled accounts (20 fraud, 80 normal), 10 published random splits, tested on 39,157 accounts. Fraud rate in the test set is about 4.5%. Values are mean ± std in percent.
 
 | Model and features | AUROC | AUPRC | Recall at K |
 | --- | --- | --- | --- |
